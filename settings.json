@@ -1,0 +1,56 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "files.trimTrailingWhitespace": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.DS_Store": true,
+      "**/reports": true,
+      "public/swagger-ui": true
+    },
+    "editor.renderWhitespace": "all",
+    "editor.trimAutoWhitespace": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.rulers": [
+      100
+    ],
+    "typescript.npm": "/Users/whitten/.nvm/versions/node/v6.11.1/bin/npm",
+    "window.zoomLevel": 0,
+    "editor.formatOnPaste": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true,
+      "**/build": true
+    },
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.activityBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "editor.cursorStyle": "block-outline",
+    "editor.cursorBlinking": "solid",
+    "workbench.sideBar.location": "left",
+    "workbench.editor.swipeToNavigate": true,
+    "extensions.ignoreRecommendations": false,
+
+    "php.suggest.basic": false,
+    "php.validate.enable": true,
+    "php.validate.run": "onType",
+    "php.validate.executablePath": "/usr/local/bin/php",
+
+    "sasslint.enable": true,
+    "sasslint.run": "onType",
+
+    "gitlens.remotes": [
+      {
+        "type": "GitHub",
+        "domain": "https://git.corp.adobe.com/AdobeStock/contributors"
+      }
+    ],
+    "gitlens.blame.ignoreWhitespace": true,
+
+    "window.nativeTabs": true,
+    "workbench.panel.location": "right"
+  }
