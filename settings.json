@@ -1,13 +1,13 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "files.trimTrailingWhitespace": false,
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.symbolPath": "last",
+    "files.trimTrailingWhitespace": true,
     "files.exclude": {
       "**/.git": true,
       "**/.svn": true,
       "**/.hg": true,
       "**/.DS_Store": true,
-      "**/reports": true,
-      "public/swagger-ui": true
     },
     "editor.renderWhitespace": "all",
     "editor.trimAutoWhitespace": true,
@@ -16,21 +16,22 @@
     "editor.rulers": [
       100
     ],
-    "typescript.npm": "/Users/whitten/.nvm/versions/node/v6.11.1/bin/npm",
-    "window.zoomLevel": 0,
     "editor.formatOnPaste": true,
     "search.exclude": {
       "**/node_modules": true,
       "**/bower_components": true,
       "**/dist": true,
-      "**/build": true
+      "**/build": true,
+      "**/swagger*": true,
+      "public/api-client.html": true
     },
-    "workbench.iconTheme": "vs-seti",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": null,
+    "workbench.colorTheme": "One Dark Pro Vivid",
     "workbench.activityBar.visible": false,
     "explorer.openEditors.visible": 0,
     "editor.cursorStyle": "block-outline",
     "editor.cursorBlinking": "solid",
+    "editor.tabSize": 2,
     "workbench.sideBar.location": "left",
     "workbench.editor.swipeToNavigate": true,
     "extensions.ignoreRecommendations": false,
@@ -38,7 +39,7 @@
     "php.suggest.basic": false,
     "php.validate.enable": true,
     "php.validate.run": "onType",
-    "php.validate.executablePath": "/usr/local/bin/php",
+    "php.validate.executablePath": "/usr/bin/php",
 
     "sasslint.enable": true,
     "sasslint.run": "onType",
@@ -46,11 +47,61 @@
     "gitlens.remotes": [
       {
         "type": "GitHub",
-        "domain": "https://git.corp.adobe.com/AdobeStock/contributors"
-      }
+        "domain": "git.corp.adobe.com",
+        "protocol": "https"
+      },
     ],
     "gitlens.blame.ignoreWhitespace": true,
-
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
     "window.nativeTabs": true,
-    "workbench.panel.location": "right"
+    "editor.fontWeight": "900",
+    "javascript.preferences.quoteStyle": "single",
+    "git.autofetch": true,
+    "files.watcherExclude": {
+      "**/include/Zend/**": true
+    },
+    "editor.wordWrapColumn": 100,
+
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "terminal.integrated.rendererType": "canvas",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false,
+    },
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "typescript.tsserver.log": "off",
+    "debug.javascript.debugByLinkOptions": "always",
+    "terminal.integrated.scrollback": 10000,
+    // Dan Abramov suggestions for Subliminal theme
+    // "editor.fontSize": 18,
+    // "editor.folding": false,
+    // "editor.hideCursorInOverviewRuler": true,
+    // "editor.lineHeight": 26,
+    // "editor.lineNumbers": "off",
+    // "editor.matchBrackets": false,
+    // "editor.minimap.enabled": false,
+    // "editor.occurrencesHighlight": false,
+    // "editor.overviewRulerBorder": false,
+    // "editor.renderIndentGuides": false,
+    // "gitlens.historyExplorer.enabled": true,
+    // "editor.renderLineHighlight": "none",
+    // "editor.scrollbar.horizontal": "hidden",
+    // "explorer.openEditors.visible": 0,
+    // "window.zoomLevel": 0,
+    // "workbench.activityBar.visible": false,
+    // "workbench.colorTheme": "Subliminal",
+    // "workbench.iconTheme": null,
+    // "workbench.editor.showIcons": false,
+    // "workbench.statusBar.visible": false,
   }
