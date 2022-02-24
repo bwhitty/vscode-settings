@@ -33,16 +33,12 @@
     "editor.cursorBlinking": "solid",
     "editor.tabSize": 2,
     "workbench.sideBar.location": "left",
-    "workbench.editor.swipeToNavigate": true,
     "extensions.ignoreRecommendations": false,
 
     "php.suggest.basic": false,
     "php.validate.enable": true,
     "php.validate.run": "onType",
     "php.validate.executablePath": "/usr/bin/php",
-
-    "sasslint.enable": true,
-    "sasslint.run": "onType",
 
     "gitlens.remotes": [
       {
@@ -59,8 +55,6 @@
         "suppressGitVersionWarning": false,
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true
     },
     "javascript.updateImportsOnFileMove.enabled": "never",
     "window.nativeTabs": true,
@@ -75,11 +69,10 @@
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
     },
-    "terminal.integrated.rendererType": "canvas",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": false,
     },
-    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "typescript.tsserver.log": "off",
     "debug.javascript.debugByLinkOptions": "always",
     "terminal.integrated.scrollback": 10000,
